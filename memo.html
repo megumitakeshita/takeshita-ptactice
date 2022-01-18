@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavascriptでのDOM操作</title>
+    <title>簡単メモアプリ</title>
     <link rel="stylesheet" href="src/style.css">
 </head>
 <body>
-    <h1 id="title">Hello World!</h1>
+    <h1 id="title">簡単メモアプリ</h1>
+    <input type="text" id="add-text">
+    <button id="add-button">追加</button>
     <div class="container">
-        <p>エリア1です</p>
+        <p>メモ一覧</p>
+        <ul id="memo-list"></ul>
     </div>
-    <div class="container">
-        <p>エリア2です</p>
-    </div>
-    <script src="src/index.js"></script>
+
+    <script src="src/memo.js"></script>
 </body>
 </html>
