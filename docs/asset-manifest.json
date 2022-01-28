@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/takeshita-ptactice/static/css/main.943e2c79.css",
+    "main.js": "/takeshita-ptactice/static/js/main.485f7c85.js",
+    "index.html": "/takeshita-ptactice/index.html",
+    "main.943e2c79.css.map": "/takeshita-ptactice/static/css/main.943e2c79.css.map",
+    "main.485f7c85.js.map": "/takeshita-ptactice/static/js/main.485f7c85.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.943e2c79.css",
+    "static/js/main.485f7c85.js"
+  ]
+}
