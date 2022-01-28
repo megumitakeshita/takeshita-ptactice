@@ -12,8 +12,8 @@ export const MemoList: FC<Props> =  props => {
 
     return(
         <SContainer>
-            <p>メモ一覧</p>
-            <ul>
+            <p className="list-title">やることリスト</p>
+            <ul className="list">
                 {memos.map((memo, index) => (
                     <li key={memo}>
                         <SMemoWrapper>
@@ -30,10 +30,12 @@ export const MemoList: FC<Props> =  props => {
 const SButton = styled.button`
 margin-left:16px;
 `;
-const SContainer = styled.button`
-    border:solid 1px #ccc;
+const SContainer = styled.div`
+    border:solid 1px #ddd;
     padding:16px;
-    margin:8px;
+    margin:8px 0;
+    border-radius:8px;
+    background:#fff;
 `;
 const SMemoWrapper = styled.div`
     display:flex;
